@@ -1,0 +1,67 @@
+body{
+    font-family: "Roboto Thin", serif;
+    margin: 0;
+}
+
+.headerContainer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    color: white;
+    padding: 10px;
+}
+
+.logo{
+    display: flex;
+}
+
+.headerLinks{
+    display: flex;
+    width: 200px;
+    justify-content: space-around;
+}
+
+.webIntro{
+    display: flex;
+    background-color: #1F2937;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+    padding: 20px;
+}
+
+.introTextContainer{
+    display: flex;
+    width: 300px;
+    height: 150px;
+    padding: 10px;
+    flex-direction: column;
+}
+
+.introHead{}
+
+.introText{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100px;
+}
+
+.introButton{
+    background-color: #3882F6;
+    border: 0;
+    border-radius: 5px;
+    width: 80px;
+    padding: 5px;
+}
+
+.introImg{
+    display: flex;
+    color: black;
+    width: 300px;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.48);
+}
