@@ -1,6 +1,7 @@
 body{
     font-family: "Roboto Thin", serif;
     margin: 0;
+    height:100%;
 }
 
 .headerContainer{
@@ -51,6 +52,7 @@ body{
 .introButton{
     background-color: #3882F6;
     border: 0;
+    color: white;
     border-radius: 5px;
     width: 80px;
     padding: 5px;
@@ -64,4 +66,44 @@ body{
     justify-content: center;
     align-items: center;
     background-color: rgba(255, 255, 255, 0.48);
+}
+
+.infoContainer{
+    display: flex;
+    flex-direction: column;
+    background-color: #3882F6;
+    align-items: center;
+    height: 150px;
+    padding-bottom: 20px;
+    justify-content: space-evenly;
+}
+
+.infoTitle{
+    align-items: center;
+}
+
+.infoBoxes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: bisque;
+    width: 600px;
+    height: 300px;
+}
+
+.boxContainer{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 70px;
+    padding: 2px;
+}
+
+.box{
+    background-color: aqua;
+    height: 100px;
+    width: 100px;
+    border-radius: 8px;
+    border: 20px black;
 }
