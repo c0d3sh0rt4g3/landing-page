@@ -6,7 +6,7 @@ body{
 
 .headerContainer{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color: #1F2937;
     color: white;
     padding: 10px;
@@ -18,7 +18,7 @@ body{
 
 .headerLinks{
     display: flex;
-    width: 200px;
+    width: 400px;
     justify-content: space-around;
 }
 
@@ -26,7 +26,7 @@ body{
     display: flex;
     background-color: #1F2937;
     color: white;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     height: 200px;
     padding: 20px;
@@ -71,11 +71,9 @@ body{
 .infoContainer{
     display: flex;
     flex-direction: column;
-    background-color: #3882F6;
     align-items: center;
-    height: 150px;
-    padding-bottom: 20px;
-    justify-content: space-evenly;
+    height: 400px;
+    justify-content: space-around;
 }
 
 .infoTitle{
@@ -86,24 +84,53 @@ body{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
-    background-color: bisque;
-    width: 600px;
-    height: 300px;
+    justify-content: space-between;
+    width: 800px;
+    height: 400px;
 }
 
 .boxContainer{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
-    height: 70px;
+    height: 300px;
+    width: 400px;
     padding: 2px;
 }
 
 .box{
-    background-color: aqua;
-    height: 100px;
-    width: 100px;
+    height: 140px;
+    width: 140px;
     border-radius: 8px;
-    border: 20px black;
+    border: 2px solid #3B82F6;
+}
+
+.textUnderBox{
+    width: 140px;
+    text-align: center;
+}
+
+.quoteContainer{
+    display: flex;
+    height: 100px;
+    padding: 10px;
+    background-color: #E5E7EB;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    //display: flex;
+    //align-items: center;
+    //flex-direction: column;
+    justify-content: center;
+}
+
+.quote{
+    width: 300px;
+}
+
+.ownerOfquote{
+    width: 400px;
+    font-weight: bolder;
+    text-align: end;
 }
